@@ -31,10 +31,20 @@ p {
 	justify-content: center;
 }
 
+.sections {
+	margin: 2px;
+}
+
+.section p {
+	margin: 1px;
+}
+
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 2px;
+	margin-bottom: 0px;
 }
 
 .header img {
