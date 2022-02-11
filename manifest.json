@@ -1,0 +1,25 @@
+{
+	"name": "Cloudflare login counter",
+	"browser_specific_settings": {
+		"gecko": {
+		  "id": "cloudflare-login-counter@chickenmatty.me",
+		  "strict_min_version": "42.0"
+		}},
+	"description": "Count your logins into cloudflare.com",
+	"version": "1.0",
+	"manifest_version": 2,
+	"permissions" : [
+		"webRequest", "https://dash.cloudflare.com/api/v4/login", "storage"
+	],
+	"background" : {
+		"scripts" : [
+			"js/browser-polyfill.min.js",
+			"js/background.js"
+		]
+	},
+	"browser_action" : {
+		"default_icon" : "icons/a-32.png",
+		"default_title" : "Cloudflare Counter",
+		"default_popup" : "popup/index.html" 
+	}
+}
