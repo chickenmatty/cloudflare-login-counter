@@ -36,6 +36,7 @@ p {
 }
 
 .section p {
+	text-align: right;
 	margin: 1px;
 }
 
