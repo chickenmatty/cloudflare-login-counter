@@ -23,7 +23,7 @@
 		  "strict_min_version": "42.0"
 		}},
 	"icons": {
-		"48": "icon48.png",
-		"96": "icon96.png"
+		"48": "icons/icon48.png",
+		"96": "icons/icon96.png"
 		}		  
 }

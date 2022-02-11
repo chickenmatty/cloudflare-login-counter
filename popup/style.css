@@ -1,26 +1,51 @@
+@font-face {
+    font-family: "Digital-7";
+    src: url("digital-7.ttf");
+}
+
 body {
-	background-color: rgb(244, 116, 59);;
-	width: 200px;
+    background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+	font-family: "Digital-7";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
 }
 
 p {
-	text-align: center;
-	font-size: 25px;
-	margin : 0;
+    font-size: 25px;
 }
 
-#succeeded {
-	color : rgb(190, 238, 98);
-	margin-top: 10px;
-	font-size : 50px;
+.counter {
+    font-size: 30px;
+	background-color: black;
+	color: #f6821f;
+	margin: 0;
+	padding: 2px;
 }
 
-#times {
-	color : rgb(190, 238, 98);
-	margin : 0 auto 10px;
+.sections-parent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-#failed {
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header img {
+	width: 100px;
+	margin-right: 10px;
+}
+
+.header .title {
 	font-size: 15px;
-	color: rgb(69, 93, 146);
+	display: block;
+	margin: 0;
+	padding: 0;
+	line-height: 13px;
 }
