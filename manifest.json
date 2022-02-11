@@ -19,8 +19,7 @@
 	},
 	"browser_specific_settings": {
 		"gecko": {
-		  "id": "cloudflare-login-counter@chickenmatty.me",
-		  "strict_min_version": "42.0"
+		  "id": "cloudflare-login-counter@chickenmatty.me"
 		}},
 	"icons": {
 		"48": "icons/icon48.png",
