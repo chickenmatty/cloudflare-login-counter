@@ -1,7 +1,7 @@
 {
 	"name": "Cloudflare logins counter",
 	"description": "Count your logins into cloudflare.com",
-	"version": "1.0",
+	"version": "1.1",
 	"manifest_version": 2,
 	"permissions" : [
 		"webRequest", "https://dash.cloudflare.com/api/v4/login", "storage"
